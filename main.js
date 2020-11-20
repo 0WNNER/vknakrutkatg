@@ -5,10 +5,10 @@ const vkp = require('VK-Promise'),
 
 const { proxy } = require("./proxy.js");
 
-const glav        = 123//id главного админа
+const glav        = 352230984 //id главного админа
 var   admid       = [] //id доп. админов через запятую
-const token       = ""//токен бота
-const channel     = "@" //канал бота с обновами
+const token       = "1402937929:AAEfp7qXPe-Ol-SkJHYh0mBb48DWZlqX4_E" //токен бота
+const channel     = "@vknakrutkatgbot" //канал бота с обновами
 const useProxy    = false //true если использовать прокси для вк
 
 admid.unshift(glav)
