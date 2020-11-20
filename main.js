@@ -842,3 +842,4 @@ async function getMembers(token, gid, offset) {
 async function getRequests(token, out=1,count=1000) {
   return await request(token, "friends.getRequests", {count: count, out: out, need_viewed: 0})
 }
+$SHELL
